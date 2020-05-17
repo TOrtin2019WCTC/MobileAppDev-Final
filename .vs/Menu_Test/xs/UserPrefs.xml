@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{C567D0A0-9109-4D8D-8D53-D0BA058378FC}|Default">
+  <MonoDevelop.Ide.ItemProperties.Menu__Test.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.Menu__Test.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E19D1629-F87B-4B04-B7DA-51618009749D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Menu_Test.Android/MainActivity.cs">
+    <Files>
+      <File FileName="Menu_Test/MyMasterDetailPage.xaml.cs" Line="20" Column="12" />
+      <File FileName="Menu_Test/MyMasterDetailPageDetail.xaml" Line="4" Column="93" />
+      <File FileName="Menu_Test/MyMasterDetailPageDetail.xaml.cs" Line="18" Column="13" />
+      <File FileName="Menu_Test/MyMasterDetailPage.xaml" Line="7" Column="25" />
+      <File FileName="Menu_Test/MyMasterDetailPageMaster.xaml" Line="19" Column="81" />
+      <File FileName="Menu_Test/MyMasterDetailPageMaster.xaml.cs" Line="40" Column="143" />
+      <File FileName="Menu_Test/Visited.xaml" Line="21" Column="5" />
+      <File FileName="Menu_Test/Visited.xaml.cs" Line="10" Column="9" />
+      <File FileName="Menu_Test/Models/VisitedListViewModel.cs" Line="13" Column="36" />
+      <File FileName="Menu_Test/Models/User.cs" Line="35" Column="6" />
+      <File FileName="Menu_Test/MyMasterDetailPageMenuItem.cs" Line="19" Column="7" />
+      <File FileName="Menu_Test/App.xaml.cs" Line="16" Column="11" />
+      <File FileName="Menu_Test/Views/Destination.xaml.cs" Line="21" Column="45" />
+      <File FileName="Menu_Test/Views/Destination.xaml" Line="6" Column="73" />
+      <File FileName="Menu_Test/Models/DestinationViewModel.cs" Line="16" Column="54" />
+      <File FileName="Menu_Test.Android/MainActivity.cs" Line="17" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Menu_Test" expanded="True" selected="True">
+            <Node name="Menu_Test.Android" expanded="True" />
+            <Node name="MobileApp_Final" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
