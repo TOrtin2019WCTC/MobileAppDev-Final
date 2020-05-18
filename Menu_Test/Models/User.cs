@@ -29,6 +29,7 @@ namespace Menu_Test.Models
         public int ID { get; set; }
         public string Location { get; set; }
         public string Date { get; set; }
+        //public WeatherInfo WeatherInfo { get; set; }
 
         public PlaceVisited(string location)
         {

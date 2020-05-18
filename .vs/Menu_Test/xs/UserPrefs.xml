@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{C567D0A0-9109-4D8D-8D53-D0BA058378FC}|Default">
   <MonoDevelop.Ide.ItemProperties.Menu__Test.Android PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.ItemProperties.Menu__Test.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E19D1629-F87B-4B04-B7DA-51618009749D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Menu_Test/TaskExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Menu_Test/MyMasterDetailPageMaster.xaml.cs">
     <Files>
-      <File FileName="Menu_Test/Views/Destination.xaml.cs" Line="22" Column="32" />
-      <File FileName="Menu_Test/Models/DestinationViewModel.cs" Line="17" Column="1" />
-      <File FileName="Menu_Test/Models/User.cs" Line="24" Column="1" />
-      <File FileName="Menu_Test/Data/UserDatabase.cs" Line="63" Column="54" />
-      <File FileName="Menu_Test/Models/VisitedListViewModel.cs" Line="12" Column="10" />
-      <File FileName="Menu_Test/Views/Visited.xaml.cs" Line="34" Column="14" />
-      <File FileName="Menu_Test/Views/Visited.xaml" Line="6" Column="116" />
-      <File FileName="Menu_Test/App.xaml.cs" Line="17" Column="26" />
-      <File FileName="Menu_Test/MyMasterDetailPageMaster.xaml" Line="1" Column="1" />
-      <File FileName="Menu_Test/MyMasterDetailPageMaster.xaml.cs" Line="40" Column="85" />
-      <File FileName="Menu_Test/Views/Destination.xaml" Line="7" Column="56" />
-      <File FileName="Menu_Test/TaskExtensions.cs" Line="1" Column="1" />
+      <File FileName="Menu_Test/Views/Weather.xaml.cs" Line="81" Column="67" />
+      <File FileName="Menu_Test/Views/Weather.xaml" Line="13" Column="1" />
+      <File FileName="Menu_Test/Models/User.cs" />
+      <File FileName="Menu_Test/Constants.cs" />
+      <File FileName="Menu_Test/App.xaml" />
+      <File FileName="Menu_Test/Views/Destination.xaml.cs" Line="46" Column="17" />
+      <File FileName="Menu_Test/Models/DestinationViewModel.cs" />
+      <File FileName="Menu_Test/Views/Destination.xaml" Line="8" Column="89" />
+      <File FileName="Menu_Test/MyMasterDetailPage.xaml" Line="1" Column="1" />
+      <File FileName="Menu_Test/MyMasterDetailPageDetail.xaml" Line="2" Column="193" />
+      <File FileName="Menu_Test/Models/WeatherViewModel.cs" Line="47" Column="78" />
+      <File FileName="Menu_Test/Views/Visited.xaml.cs" Line="32" Column="17" />
+      <File FileName="Menu_Test/MyMasterDetailPageMaster.xaml" Line="19" Column="88" />
+      <File FileName="Menu_Test/MyMasterDetailPageMenuItem.cs" Line="1" Column="1" />
+      <File FileName="Menu_Test/MyMasterDetailPageMaster.xaml.cs" Line="36" Column="71" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,14 +25,21 @@
           <Node name="Menu_Test" expanded="True">
             <Node name="Menu_Test" expanded="True">
               <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Destination.xaml" expanded="True" />
                 <Node name="Visited.xaml" expanded="True" />
+                <Node name="Weather.xaml" expanded="True" />
               </Node>
-              <Node name="TaskExtensions.cs" selected="True" />
+              <Node name="MyMasterDetailPageMaster.xaml" expanded="True">
+                <Node name="MyMasterDetailPageMaster.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="Menu_Test.Android" expanded="True" />
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

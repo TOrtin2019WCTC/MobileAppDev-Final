@@ -37,7 +37,7 @@ namespace Menu_Test
               
                     new MyMasterDetailPageMenuItem { Id = 1, Title = "Weather Info", TargetType = typeof(Weather), Image = "sun.png" },
 
-                    new MyMasterDetailPageMenuItem { Id = 2, Title = "Places Visited", TargetType = typeof(Visited), Image = "location.png" }
+                    new MyMasterDetailPageMenuItem { Id = 2, Title = "Visited Places", TargetType = typeof(Visited), Image = "location.png" }
                     
                 });
             }

@@ -23,20 +23,31 @@ namespace Menu_Test.Views
             destination.BindingContext = User.Destination;
         }
 
-        void Submit_Button_Clicked(System.Object sender, System.EventArgs e)
+         void Submit_Button_Clicked(System.Object sender, System.EventArgs e)
             
         {
-            dsm.SetDestination(destination.Text);
-            submit.IsVisible = false;
-            destinationInfo.Children.Clear();
-            destinationInfo.Children.Add(new Label
+            if(!destination.Text.Equals(string.Empty))
             {
-                Text = $"Your destination is {User.Destination}"
+                dsm.SetDestination(destination.Text.Replace(" ", ""));
+                submit.IsVisible = false;
+                destinationInfo.Children.Clear();
+                destinationInfo.Children.Add(new Label
+                {
+                    Text = $"Your destination is {User.Destination}"
+
+
+                });
+
+                 DisplayAlert("Success!", "Destination is set! \ncheck the Weather Info page to view current weather conditions", "ok");
                 
+            }
+            else
+            {
+                DisplayAlert("Error", "Enter a Destination", "ok");
+            }
 
-            }) ;
-
-            DisplayAlert("Success!", "Destination is set! \ncheck the Weather Info page to view current weather conditions", "ok");
+           
+           
         }
 
         async void Reset_Button_Clicked(Object sender, EventArgs e)

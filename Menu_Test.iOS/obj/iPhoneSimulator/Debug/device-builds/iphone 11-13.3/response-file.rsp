@@ -164,6 +164,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
+-r=/Users/tim/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll
 -r=/Users/tim/.nuget/packages/sqlite-net-pcl/1.7.335/lib/netstandard2.0/SQLite-net.dll
 -r=/Users/tim/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
 -r=/Users/tim/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll

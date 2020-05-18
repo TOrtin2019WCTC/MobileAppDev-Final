@@ -29,7 +29,7 @@ namespace Menu_Test
                 var placeVisited = (PlaceVisited)button.CommandParameter;
                 await App.Database.DeleteItemAsync(placeVisited);
                 User.Visited.Remove(placeVisited);
-                await DisplayAlert("Success!", "Item Deleted", "OK");
+                
                 OnAppearing();
 
             }

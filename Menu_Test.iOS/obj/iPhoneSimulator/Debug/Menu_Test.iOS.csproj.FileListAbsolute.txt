@@ -66,3 +66,8 @@
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/thunderstorm.png
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/partly-cloudy.png
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/sun-weather.png
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/windy.png
