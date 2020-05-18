@@ -60,3 +60,9 @@
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/Menu_Test.iOS.csproj.CopyComplete
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/Menu_Test.iOS.exe
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/Menu_Test.iOS.pdb
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll

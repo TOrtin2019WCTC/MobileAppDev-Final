@@ -3,13 +3,14 @@
    
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemsSource="{x:Static local:User.Visited}" HasUnevenRows="True" Margin="10">
+            <ListView x:Name="visited" ItemsSource="{x:Static local:User.Visited}" HasUnevenRows="True" Margin="10">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="10">
-                            <Label Text="{Binding Location}"/>
-                                <Label Text="{Binding Date}" HorizontalOptions="EndAndExpand"/>
+                            <Label Text="{Binding Location}" WidthRequest="220" VerticalOptions="Center"/>
+                                <Label Text="{Binding Date}" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                                <Button Text="Delete" Clicked="Delete_Button_Clicked" TextColor="Red" CommandParameter="{Binding .}" Margin="10" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
                                 </StackLayout>
                         </ViewCell>
                     </DataTemplate>
