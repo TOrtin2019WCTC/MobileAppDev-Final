@@ -53,8 +53,12 @@ namespace Menu_Test.Views
         async void Reset_Button_Clicked(Object sender, EventArgs e)
         {
             User.Destination = string.Empty;
+            destination.Text = User.Destination;
             await App.Database.DeleteItemAsync(User.Visited[User.Visited.Count - 1]);
+            User.Visited.Remove(User.Visited[User.Visited.Count - 1]);
             User.Visited = await App.Database.GetItemsAsync();
+            await DisplayAlert("Success!", "Your Trip Has Been Reset", "Ok");
+
             
         }
 

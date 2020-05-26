@@ -5,12 +5,12 @@
             <StackLayout Orientation="Horizontal" x:Name="destinationInfo">
                 <StackLayout>
                 <Label Text="Enter City and State: " VerticalOptions="CenterAndExpand"/>
-                <Entry x:Name="destination" Text="{Binding .}" Placeholder="Milwaukee, Wi" WidthRequest="200"/>
+                <Entry x:Name="destination" Text="{Binding .}" Placeholder="Milwaukee, WI" WidthRequest="200"/>
                     </StackLayout>
             </StackLayout>
             <StackLayout>
                 <Button x:Name="submit" Text="Submit" Clicked="Submit_Button_Clicked"/>
-                <Button x:Name="reset" Text="Reset" Clicked="Reset_Button_Clicked"/>
+                <Button x:Name="reset" Text="Reset Trip" Clicked="Reset_Button_Clicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
