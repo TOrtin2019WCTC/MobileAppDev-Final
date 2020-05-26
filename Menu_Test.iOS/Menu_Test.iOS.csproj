@@ -143,5 +143,6 @@
     <BundleResource Include="Resources\light-rain.jpg" />
     <BundleResource Include="Resources\cloudy.jpg" />
     <BundleResource Include="Resources\windy.png" />
+    <BundleResource Include="Resources\snow.png" />
   </ItemGroup>
 </Project>

@@ -950,3 +950,13 @@
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/android/src/crc64720bb2db43a66fe9/ShellFragmentContainer 4.java
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/android/src/crc6414252951f3f66c67/RecyclerViewScrollListener_2 3.java
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/android/bin/classes 3.dex
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_BuildAdditionalResourcesCache 3.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_BuildLibraryImportsCache 2.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_CleanIntermediateIfNuGetsChange 2.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_CompileToDalvik 2.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_ConvertCustomView 2.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_ConvertLibraryResourcesCases 2.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_ConvertResourcesCases 2.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_GenerateJavaStubs 3.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_GeneratePackageManagerJava 2.stamp
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.Android/obj/Debug/stamp/_ResolveLibraryProjectImports 2.stamp

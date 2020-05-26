@@ -21,7 +21,7 @@ namespace Menu_Test.Models
             Temp = temp + "º";
             Conditions = conditions;
 
-            if (Conditions.Contains("rain") || Conditions.Contains("drizzle"))
+            if (Conditions.Contains("rain") || Conditions.Contains("drizzle") || Conditions.Contains("mist"))
             {
                 Image = "light-rain.jpg";
             }
@@ -53,8 +53,11 @@ namespace Menu_Test.Models
             {
                 Image = "windy.png";
             }
-               
-           
+
+            if (Conditions.Contains("snow") || Conditions.Contains("flurries"))
+            {
+                Image = "snow.png";
+            }
                
             
         }

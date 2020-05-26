@@ -28,7 +28,7 @@ namespace Menu_Test.Views
         {
             if(!destination.Text.Equals(string.Empty))
             {
-                dsm.SetDestination(destination.Text.Replace(" ", ""));
+                dsm.SetDestination(destination.Text);
                 submit.IsVisible = false;
                 destinationInfo.Children.Clear();
                 destinationInfo.Children.Add(new Label

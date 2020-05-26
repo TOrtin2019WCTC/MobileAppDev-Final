@@ -71,3 +71,4 @@
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/partly-cloudy.png
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/sun-weather.png
 /Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/windy.png
+/Users/tim/Desktop/Repos/Menu_Test/Menu_Test.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/snow.png
