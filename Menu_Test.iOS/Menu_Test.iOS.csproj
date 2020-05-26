@@ -137,5 +137,12 @@
     <BundleResource Include="Resources\compass.png" />
     <BundleResource Include="Resources\sun.png" />
     <BundleResource Include="Resources\location.png" />
+    <BundleResource Include="Resources\thunderstorm.png" />
+    <BundleResource Include="Resources\partly-cloudy.png" />
+    <BundleResource Include="Resources\sun-weather.png" />
+    <BundleResource Include="Resources\light-rain.jpg" />
+    <BundleResource Include="Resources\cloudy.jpg" />
+    <BundleResource Include="Resources\windy.png" />
+    <BundleResource Include="Resources\snow.png" />
   </ItemGroup>
 </Project>

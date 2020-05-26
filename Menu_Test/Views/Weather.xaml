@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Menu_Test.Weather" Title="Weather">
     <ContentPage.Content>
-        <Label Text="This is the Weather Page"/>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Margin="0,40,0,0" x:Name="weather_info">
+          
+            <Label Text="{Binding City}" HorizontalOptions="CenterAndExpand" FontSize="Title"/>
+            <Label Text="{Binding Temp}" FontSize="100" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="30,0,0,0"/>
+            <Label Text="{Binding Conditions}" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+            <Image Source="{Binding Image}" Margin="10,30,10,10"/>
+         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

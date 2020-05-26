@@ -13,12 +13,49 @@ namespace Menu_Test.Views
         {
             InitializeComponent();
             BindingContext = dsm;
+          
+            destination.BindingContext = User.Destination;
         }
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
+        protected override void OnAppearing()
         {
-            dsm.SetDestination(destination.Text);
-            destination.Text = string.Empty;
+            base.OnAppearing();
+            destination.BindingContext = User.Destination;
+        }
+
+         void Submit_Button_Clicked(System.Object sender, System.EventArgs e)
+            
+        {
+            if(!destination.Text.Equals(string.Empty))
+            {
+                dsm.SetDestination(destination.Text);
+                submit.IsVisible = false;
+                destinationInfo.Children.Clear();
+                destinationInfo.Children.Add(new Label
+                {
+                    Text = $"Your destination is {User.Destination}"
+
+
+                });
+
+                 DisplayAlert("Success!", "Destination is set! \ncheck the Weather Info page to view current weather conditions", "ok");
+                
+            }
+            else
+            {
+                DisplayAlert("Error", "Enter a Destination", "ok");
+            }
+
+           
+           
+        }
+
+        async void Reset_Button_Clicked(Object sender, EventArgs e)
+        {
+            User.Destination = string.Empty;
+            await App.Database.DeleteItemAsync(User.Visited[User.Visited.Count - 1]);
+            User.Visited = await App.Database.GetItemsAsync();
+            
         }
 
 
